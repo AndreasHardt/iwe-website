@@ -1,0 +1,74 @@
+{
+  "imprint": {
+    "eyebrow": "Rechtliche Angaben",
+    "heading": "Impressum",
+    "provider_heading": "Angaben zum Anbieter",
+    "provider_name": "Dipl.-Ing. Andreas Hardt",
+    "street": "Auf der Heilen 21",
+    "postal_city": "51674 Wiehl",
+    "country": "Deutschland",
+    "responsible_heading": "Verantwortlich für den Inhalt",
+    "liability_heading": "Haftung für Inhalte und Links",
+    "liability_text": "Die Inhalte dieser Website wurden mit Sorgfalt erstellt. Eine Gewähr für Vollständigkeit, Richtigkeit und Aktualität kann dennoch nicht übernommen werden. Für Inhalte externer Websites, auf die verlinkt wird, sind ausschließlich deren Betreiber verantwortlich.",
+    "copyright_heading": "Urheberrecht",
+    "copyright_text": "Texte, Bilder und Gestaltung dieser Website unterliegen dem Urheberrecht. Eine Nutzung außerhalb der gesetzlichen Grenzen bedarf der vorherigen Zustimmung des jeweiligen Rechteinhabers.",
+    "back_label": "Zurück zur Startseite"
+  },
+  "privacy": {
+    "eyebrow": "Datenschutzerklärung",
+    "heading": "Datenschutz",
+    "sections": [
+      {
+        "heading": "1. Verantwortlicher",
+        "paragraphs": [
+          "Dipl.-Ing. Andreas Hardt\nAuf der Heilen 21\n51674 Wiehl\nDeutschland",
+          "E-Mail: iwe@hardt-wiehl.de"
+        ]
+      },
+      {
+        "heading": "2. Hosting und Server-Protokolldaten",
+        "paragraphs": [
+          "Diese Website ist als statische Website für eine Veröffentlichung über GitHub Pages vorgesehen. Beim Abruf können technisch erforderliche Server-Protokolldaten verarbeitet werden, insbesondere IP-Adresse, Zeitpunkt, angeforderte Seite sowie Browser- und Geräteinformationen.",
+          "Die Verarbeitung erfolgt zur sicheren und technisch zuverlässigen Bereitstellung der Website auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Das berechtigte Interesse liegt in der sicheren, stabilen und effizienten Bereitstellung des Internetauftritts."
+        ]
+      },
+      {
+        "heading": "3. Cookies und Reichweitenmessung",
+        "paragraphs": [
+          "Diese Website setzt selbst keine Cookies ein und verwendet keine Analyse-, Werbe- oder Trackingdienste."
+        ]
+      },
+      {
+        "heading": "4. Kontaktaufnahme per E-Mail",
+        "paragraphs": [
+          "Bei einer Kontaktaufnahme per E-Mail werden die übermittelten Angaben zur Bearbeitung der Anfrage verarbeitet. Rechtsgrundlage ist je nach Inhalt der Anfrage Art. 6 Abs. 1 lit. b oder lit. f DSGVO. Die Daten werden gelöscht, sobald sie für die Bearbeitung nicht mehr erforderlich sind und keine gesetzlichen Aufbewahrungspflichten entgegenstehen."
+        ]
+      },
+      {
+        "heading": "5. Externe Links",
+        "paragraphs": [
+          "Die Website enthält Links zu externen Angeboten, insbesondere LinkedIn, XING und Wiley Online Library. Erst beim Anklicken eines solchen Links wird eine Verbindung zum jeweiligen Anbieter hergestellt. Für die dortige Datenverarbeitung gelten die Datenschutzbestimmungen des jeweiligen Anbieters."
+        ]
+      },
+      {
+        "heading": "6. Administrationsbereich",
+        "paragraphs": [
+          "Der unter /admin/ erreichbare Administrationsbereich ist ausschließlich für berechtigte Redakteure bestimmt. Die Anmeldung erfolgt über GitHub OAuth. Dabei werden Daten zwischen dem Browser, GitHub und dem eingesetzten OAuth-Authentifizierungsdienst ausgetauscht. Nicht berechtigte Besucher sollen den Administrationsbereich nicht verwenden."
+        ]
+      },
+      {
+        "heading": "7. Rechte betroffener Personen",
+        "paragraphs": [
+          "Betroffene Personen haben im Rahmen der gesetzlichen Voraussetzungen insbesondere das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch. Außerdem besteht das Recht, sich bei einer Datenschutzaufsichtsbehörde zu beschweren."
+        ]
+      },
+      {
+        "heading": "8. Aktualität",
+        "paragraphs": [
+          "Stand: Juli 2026. Die Datenschutzerklärung wird angepasst, wenn sich die Website, das Hosting oder die eingesetzten Dienste ändern."
+        ]
+      }
+    ],
+    "back_label": "Zurück zur Startseite"
+  }
+}

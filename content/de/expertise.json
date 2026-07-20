@@ -1,0 +1,57 @@
+{
+  "publication_section": {
+    "eyebrow": "Veröffentlichungen und Fachbeiträge",
+    "heading": "Technische Erfahrungen verständlich weitergeben"
+  },
+  "publication": {
+    "meta": "Stahlbau 88 · 2019 · Seiten 57–65",
+    "title": "Montagetoleranzen von Kranbahnen",
+    "text": "Der Beitrag untersucht den Einfluss unterschiedlicher Toleranzkriterien auf Laufqualität, Verschleiß, Schadenvermeidung und Lebensdauer von Krananlagen. Im Mittelpunkt stehen die Anforderungen verschiedener Regelwerke und ihre Bedeutung für Planung, Montage und Betrieb.",
+    "tags": [
+      "Kranbahnen",
+      "Toleranzen",
+      "Stahlbau",
+      "Montagequalität"
+    ],
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/stab.201900096",
+    "button_label": "Zur Veröffentlichung",
+    "linkedin_label": "Fachbeiträge auf LinkedIn"
+  },
+  "speaker": {
+    "eyebrow": "Referent und Dozent",
+    "heading": "Fachwissen praxisnah vermitteln",
+    "intro": "Neben meiner industriellen Tätigkeit bin ich in der schweißtechnischen Weiterbildung tätig.",
+    "text": "In der Ausbildung von Schweißfachmännern vermittle ich technische Zusammenhänge mit engem Bezug zur industriellen Anwendung. Im Mittelpunkt stehen nicht nur Regelwerke, sondern deren sichere und nachvollziehbare Umsetzung in der Praxis.",
+    "topics_heading": "Themenfelder",
+    "topics": "Schweißtechnik · Aufgaben der Schweißaufsicht · Qualitätssicherung · Stahlbau und Kranbahnen · Fehleranalyse · Schadensprävention · Automatisierung und Roboterschweißen"
+  },
+  "welding": {
+    "eyebrow": "Schweißaufsicht",
+    "heading": "Verantwortung für schweißtechnische Qualität",
+    "intro": "Schweißaufsicht verbindet technische Regelwerke, Personalqualifikation, Fertigungsprozesse und Qualitätssicherung.",
+    "items": [
+      {
+        "title": "Organisation",
+        "text": "Strukturen und Verantwortlichkeiten der Schweißaufsicht"
+      },
+      {
+        "title": "Qualifikation",
+        "text": "Schweißpersonal und schweißtechnische Unterlagen"
+      },
+      {
+        "title": "Bewertung",
+        "text": "Abweichungen, Unregelmäßigkeiten und Nacharbeit"
+      },
+      {
+        "title": "Weiterentwicklung",
+        "text": "Robuste manuelle und automatisierte Schweißprozesse"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "heading": "Fachlicher Austausch",
+    "text": "Sie möchten sich zu einem technischen Thema, einer Veröffentlichung oder einer möglichen Referententätigkeit austauschen?",
+    "email_subject": "Fachlicher Austausch"
+  }
+}
