@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Administration noch nicht aktiviert</title>
+  <style>
+    :root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#07111c;color:#edf3f7;font:17px/1.6 system-ui,-apple-system,Segoe UI,sans-serif;display:grid;min-height:100vh;place-items:center;padding:24px}.box{width:min(720px,100%);background:#0c1c2b;border:1px solid #33485a;border-radius:22px;padding:clamp(28px,6vw,54px);box-shadow:0 24px 70px rgba(0,0,0,.35)}h1{font-size:clamp(2rem,5vw,3.5rem);line-height:1.1;margin:.2rem 0 1rem}p{color:#c8d5de}.tag{color:#e7bd73;font-weight:800;letter-spacing:.1em;text-transform:uppercase;font-size:.75rem}code{background:#07111c;padding:.15rem .4rem;border-radius:6px}a{color:#e7bd73}.steps{border-left:3px solid #c99449;padding-left:22px;margin-top:28px}</style>
+</head>
+<body>
+  <main class="box">
+    <div class="tag">Website-Administration</div>
+    <h1>GitHub-Anmeldung noch nicht aktiviert</h1>
+    <p>Die Website und der Redaktionsbereich sind vorbereitet. Für die sichere Schaltfläche „Mit GitHub anmelden“ fehlt nur noch die URL des persönlichen OAuth-Authentifizierungsdienstes.</p>
+    <div class="steps">
+      <p><strong>1.</strong> Sveltia CMS Authenticator als Cloudflare Worker bereitstellen.</p>
+      <p><strong>2.</strong> Bei GitHub eine OAuth-App mit der Worker-Callback-URL anlegen.</p>
+      <p><strong>3.</strong> Im Repository die Actions-Variable <code>SVELTIA_AUTH_URL</code> auf die Worker-URL setzen.</p>
+      <p><strong>4.</strong> Den Pages-Workflow erneut ausführen.</p>
+    </div>
+    <p>Die vollständige Klick-für-Klick-Anleitung liegt im Repository in <code>OAUTH-EINRICHTUNG.md</code>.</p>
+    <p><a href="../">Zur Website</a></p>
+  </main>
+</body>
+</html>
