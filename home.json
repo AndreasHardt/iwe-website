@@ -1,0 +1,406 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+
+locale: de
+site_url: https://iwe.hardt-wiehl.de
+display_url: https://iwe.hardt-wiehl.de
+media_folder: static/assets/uploads
+public_folder: assets/uploads
+backend:
+  name: github
+  repo: AndreasHardt/iwe-website
+  branch: main
+  base_url: __SVELTIA_AUTH_URL__
+  auth_methods:
+  - oauth
+  commit_messages:
+    update: 'Website-Inhalt aktualisiert: {{collection}} / {{slug}}'
+    uploadMedia: 'Datei hochgeladen: {{path}}'
+    deleteMedia: 'Datei gelöscht: {{path}}'
+editor:
+  preview: false
+collections:
+- name: website
+  label: Website bearbeiten
+  icon: edit_note
+  files:
+  - name: site
+    label: Grunddaten & Links
+    file: content/de/site.json
+    format: json
+    fields:
+    - label: Seitentitel (Browser/Google)
+      name: site_title
+      widget: string
+    - label: Meta-Beschreibung
+      name: meta_description
+      widget: text
+    - label: Kanonische URL
+      name: canonical_url
+      widget: string
+    - label: Vollständiger Name
+      name: name
+      widget: string
+    - label: Kurzer Name
+      name: short_name
+      widget: string
+    - label: Unterzeile im Logo
+      name: brand_subtitle
+      widget: string
+    - label: Standort
+      name: location
+      widget: string
+    - label: E-Mail-Adresse
+      name: email
+      widget: string
+    - label: LinkedIn-URL
+      name: linkedin_url
+      widget: string
+    - label: XING-URL
+      name: xing_url
+      widget: string
+    - label: Text im Seitenfuß
+      name: footer_text
+      widget: string
+    - label: Sprache
+      name: language
+      widget: hidden
+      default: de
+  - name: home
+    label: Startseite, Profil & Kompetenzen
+    file: content/de/home.json
+    format: json
+    fields:
+    - label: Navigation
+      name: navigation
+      widget: list
+      fields:
+      - label: Beschriftung
+        name: label
+        widget: string
+      - label: Ziel-ID
+        name: anchor
+        widget: string
+      collapsed: true
+      summary: '{{label}}'
+    - label: Startbereich
+      name: hero
+      widget: object
+      fields:
+      - label: Kleine Überschrift
+        name: eyebrow
+        widget: string
+      - label: Name über der Hauptüberschrift
+        name: meta
+        widget: string
+      - label: Hauptüberschrift (jede Zeile wird separat dargestellt)
+        name: headline
+        widget: text
+      - label: Qualifikationen
+        name: qualification
+        widget: text
+      - label: Einleitung
+        name: lead
+        widget: text
+      - label: Schaltfläche Profil
+        name: profile_button
+        widget: string
+      - label: Schaltfläche Veröffentlichung
+        name: publication_button
+        widget: string
+      - label: Schaltfläche E-Mail
+        name: email_button
+        widget: string
+      collapsed: false
+    - label: Kurzprofil
+      name: profile
+      widget: object
+      fields:
+      - label: Rubrik
+        name: eyebrow
+        widget: string
+      - label: Überschrift
+        name: heading
+        widget: string
+      - label: Einleitung
+        name: intro
+        widget: text
+      - label: Absätze
+        name: paragraphs
+        widget: list
+      - label: Fakten
+        name: facts
+        widget: list
+        fields:
+        - label: Titel
+          name: title
+          widget: string
+        - label: Text
+          name: text
+          widget: text
+        collapsed: true
+        summary: '{{title}}'
+      collapsed: false
+    - label: Fachliche Schwerpunkte
+      name: competences
+      widget: object
+      fields:
+      - label: Rubrik
+        name: eyebrow
+        widget: string
+      - label: Überschrift
+        name: heading
+        widget: string
+      - label: Einleitung
+        name: intro
+        widget: text
+      - label: Kompetenzfelder
+        name: items
+        widget: list
+        fields:
+        - label: Titel
+          name: title
+          widget: string
+        - label: Beschreibung
+          name: text
+          widget: text
+        collapsed: true
+        summary: '{{title}}'
+      collapsed: false
+    - label: Führungserfahrung
+      name: leadership
+      widget: object
+      fields:
+      - label: Rubrik
+        name: eyebrow
+        widget: string
+      - label: Überschrift
+        name: heading
+        widget: string
+      - label: Einleitung
+        name: intro
+        widget: text
+      - label: Führungsaspekte
+        name: items
+        widget: list
+        fields:
+        - label: Titel
+          name: title
+          widget: string
+        - label: Beschreibung
+          name: text
+          widget: text
+        collapsed: true
+        summary: '{{title}}'
+      - label: Leitsatz/Zitat
+        name: quote
+        widget: text
+      collapsed: false
+  - name: career
+    label: Beruflicher Werdegang
+    file: content/de/career.json
+    format: json
+    fields:
+    - label: Rubrik
+      name: eyebrow
+      widget: string
+    - label: Überschrift
+      name: heading
+      widget: string
+    - label: Stationen
+      name: items
+      widget: list
+      fields:
+      - label: Zeitraum
+        name: date
+        widget: string
+      - label: Position/Station
+        name: title
+        widget: string
+      - label: Beschreibung
+        name: text
+        widget: text
+      collapsed: true
+      summary: '{{date}} – {{title}}'
+  - name: expertise
+    label: Veröffentlichung, Referent & Kontakt
+    file: content/de/expertise.json
+    format: json
+    fields:
+    - label: Veröffentlichungsbereich
+      name: publication_section
+      widget: object
+      fields:
+      - label: Rubrik
+        name: eyebrow
+        widget: string
+      - label: Überschrift
+        name: heading
+        widget: string
+      collapsed: false
+    - label: Veröffentlichung
+      name: publication
+      widget: object
+      fields:
+      - label: Bibliografische Zeile
+        name: meta
+        widget: string
+      - label: Titel
+        name: title
+        widget: string
+      - label: Beschreibung
+        name: text
+        widget: text
+      - label: Schlagworte
+        name: tags
+        widget: list
+      - label: URL
+        name: url
+        widget: string
+      - label: Schaltfläche
+        name: button_label
+        widget: string
+      - label: LinkedIn-Schaltfläche
+        name: linkedin_label
+        widget: string
+      collapsed: false
+    - label: Referent und Dozent
+      name: speaker
+      widget: object
+      fields:
+      - label: Rubrik
+        name: eyebrow
+        widget: string
+      - label: Überschrift
+        name: heading
+        widget: string
+      - label: Einleitung
+        name: intro
+        widget: text
+      - label: Text
+        name: text
+        widget: text
+      - label: Überschrift Themen
+        name: topics_heading
+        widget: string
+      - label: Themen
+        name: topics
+        widget: text
+      collapsed: false
+    - label: Schweißaufsicht
+      name: welding
+      widget: object
+      fields:
+      - label: Rubrik
+        name: eyebrow
+        widget: string
+      - label: Überschrift
+        name: heading
+        widget: string
+      - label: Einleitung
+        name: intro
+        widget: text
+      - label: Aspekte
+        name: items
+        widget: list
+        fields:
+        - label: Titel
+          name: title
+          widget: string
+        - label: Beschreibung
+          name: text
+          widget: text
+        collapsed: true
+        summary: '{{title}}'
+      collapsed: false
+    - label: Kontakt
+      name: contact
+      widget: object
+      fields:
+      - label: Rubrik
+        name: eyebrow
+        widget: string
+      - label: Überschrift
+        name: heading
+        widget: string
+      - label: Text
+        name: text
+        widget: text
+      - label: Betreff der E-Mail
+        name: email_subject
+        widget: string
+      collapsed: false
+  - name: legal
+    label: Impressum & Datenschutz
+    file: content/de/legal.json
+    format: json
+    fields:
+    - label: Impressum
+      name: imprint
+      widget: object
+      fields:
+      - label: Rubrik
+        name: eyebrow
+        widget: string
+      - label: Überschrift
+        name: heading
+        widget: string
+      - label: Überschrift Anbieter
+        name: provider_heading
+        widget: string
+      - label: Name
+        name: provider_name
+        widget: string
+      - label: Straße
+        name: street
+        widget: string
+      - label: PLZ und Ort
+        name: postal_city
+        widget: string
+      - label: Land
+        name: country
+        widget: string
+      - label: Überschrift Verantwortlicher
+        name: responsible_heading
+        widget: string
+      - label: Überschrift Haftung
+        name: liability_heading
+        widget: string
+      - label: Haftungstext
+        name: liability_text
+        widget: text
+      - label: Überschrift Urheberrecht
+        name: copyright_heading
+        widget: string
+      - label: Urheberrechtstext
+        name: copyright_text
+        widget: text
+      - label: Zurück-Schaltfläche
+        name: back_label
+        widget: string
+      collapsed: false
+    - label: Datenschutz
+      name: privacy
+      widget: object
+      fields:
+      - label: Rubrik
+        name: eyebrow
+        widget: string
+      - label: Überschrift
+        name: heading
+        widget: string
+      - label: Abschnitte
+        name: sections
+        widget: list
+        fields:
+        - label: Überschrift
+          name: heading
+          widget: string
+        - label: Absätze
+          name: paragraphs
+          widget: list
+        collapsed: true
+        summary: '{{heading}}'
+      - label: Zurück-Schaltfläche
+        name: back_label
+        widget: string
+      collapsed: false

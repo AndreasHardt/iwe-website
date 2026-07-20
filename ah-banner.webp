@@ -1,0 +1,132 @@
+{
+  "navigation": [
+    {
+      "label": "Profil",
+      "anchor": "profil"
+    },
+    {
+      "label": "Kompetenzen",
+      "anchor": "kompetenzen"
+    },
+    {
+      "label": "Führung",
+      "anchor": "fuehrung"
+    },
+    {
+      "label": "Werdegang",
+      "anchor": "werdegang"
+    },
+    {
+      "label": "Veröffentlichung",
+      "anchor": "veroeffentlichungen"
+    },
+    {
+      "label": "Referent",
+      "anchor": "referent"
+    },
+    {
+      "label": "Kontakt",
+      "anchor": "kontakt"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Technische Führung · Stahlbau · Schweißtechnik",
+    "meta": "Dipl.-Ing. Andreas Hardt",
+    "headline": "Technik gestalten.\nQualität sichern.\nMenschen führen.",
+    "qualification": "Bauingenieur · International Welding Engineer (IWE) · Schraubfachingenieur (DSV)",
+    "lead": "Seit mehr als 25 Jahren verbinde ich technische Expertise in Stahlbau, Kranbahnen, Schweiß- und Schraubtechnik mit Führungsverantwortung, Produktentwicklung und Qualitätssicherung.",
+    "profile_button": "Profil kennenlernen",
+    "publication_button": "Veröffentlichung",
+    "email_button": "E-Mail schreiben"
+  },
+  "profile": {
+    "eyebrow": "Kurzprofil",
+    "heading": "Technik verstehen und Verantwortung übernehmen",
+    "intro": "Mein beruflicher Schwerpunkt liegt an der Schnittstelle von technischer Entwicklung, industrieller Anwendung und verantwortlicher Führung.",
+    "paragraphs": [
+      "Als Bauingenieur, International Welding Engineer und Schraubfachingenieur beschäftige ich mich insbesondere mit Kranbahnen, Stahlbau, Schweiß- und Schraubtechnik sowie der qualitätsgerechten Umsetzung technischer Regelwerke.",
+      "Dabei verbinde ich technische Fachkenntnis mit langjähriger Erfahrung in Produktverantwortung, Personalführung, Qualitätssicherung und Organisationsentwicklung."
+    ],
+    "facts": [
+      {
+        "title": "25+ Jahre",
+        "text": "Industrie- und Führungserfahrung"
+      },
+      {
+        "title": "IWE",
+        "text": "International Welding Engineer"
+      },
+      {
+        "title": "DSV",
+        "text": "Qualifikation als Schraubfachingenieur"
+      },
+      {
+        "title": "Praxis + Regelwerk",
+        "text": "Von der technischen Analyse bis zur wirksamen Umsetzung"
+      }
+    ]
+  },
+  "competences": {
+    "eyebrow": "Fachliche Schwerpunkte",
+    "heading": "Technische Tiefe mit Blick auf das Ganze",
+    "intro": "Komplexe technische Anforderungen werden dann beherrschbar, wenn Konstruktion, Fertigung, Qualität und Organisation zusammen gedacht werden.",
+    "items": [
+      {
+        "title": "Kranbahnen und Stahlbau",
+        "text": "Entwicklung, Berechnung und technische Beurteilung von Kranbahnsystemen sowie Fragestellungen aus Stahlbau, Tragwerksplanung und Konstruktion."
+      },
+      {
+        "title": "Schweißtechnik",
+        "text": "Schweißaufsicht, Qualitätssicherung, Personalqualifikation, Schweißanweisungen und Weiterentwicklung industrieller Schweißprozesse."
+      },
+      {
+        "title": "Schraubtechnik",
+        "text": "Auslegung, Bewertung und Qualitätssicherung geschraubter Verbindungen sowie sichere und beherrschte Montageprozesse."
+      },
+      {
+        "title": "Qualität und Regelwerke",
+        "text": "Überführung technischer und normativer Anforderungen in praxistaugliche Prozesse, Arbeitsanweisungen und Qualitätssicherungsmaßnahmen."
+      },
+      {
+        "title": "Automatisierung",
+        "text": "Einführung und Weiterentwicklung neuer Technologien, insbesondere im Roboterschweißen, mit Fokus auf Qualität, Prozesssicherheit und Wirtschaftlichkeit."
+      },
+      {
+        "title": "Technische Problemlösung",
+        "text": "Systematische Analyse von Abweichungen und Schadensfällen – von der Ursachenklärung bis zur dauerhaft wirksamen Lösung."
+      }
+    ]
+  },
+  "leadership": {
+    "eyebrow": "Führungserfahrung",
+    "heading": "Fachliche Tiefe und unternehmerischer Blick",
+    "intro": "Technische Führung bedeutet mehr als die Organisation von Aufgaben: klare Verantwortung, nachvollziehbare Entscheidungen und die Fähigkeit, Fachwissen in belastbare Prozesse zu überführen.",
+    "items": [
+      {
+        "title": "Technische Bereiche leiten",
+        "text": "Fachliche und disziplinarische Verantwortung"
+      },
+      {
+        "title": "Produkte weiterentwickeln",
+        "text": "Von der Grundsatzfrage bis zur industriellen Anwendung"
+      },
+      {
+        "title": "Qualität verankern",
+        "text": "Standards in robuste Prozesse und Dokumente übersetzen"
+      },
+      {
+        "title": "Technologien einführen",
+        "text": "Automatisierung und Roboterschweißen wirksam gestalten"
+      },
+      {
+        "title": "Schnittstellen verbinden",
+        "text": "Konstruktion, Produktion, Qualität und Geschäftsleitung"
+      },
+      {
+        "title": "International handeln",
+        "text": "Technische und normative Anforderungen im internationalen Umfeld"
+      }
+    ],
+    "quote": "Nicht die technische Einzellösung allein ist entscheidend, sondern ihre dauerhafte Verankerung in Organisation und Praxis."
+  }
+}
